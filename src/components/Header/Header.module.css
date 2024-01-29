@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3.5rem auto 0;
+    width: calc(100% - 2 * 12%);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo > img {
+    object-fit: cover;
+    height: 41px;
+    width: 41px;
+}
+
+.logo > span {
+    margin: 0 0 0 0.75rem;
+    color: var(--company-logo-text);
+    font-size: 24px;
+    font-weight: 700;
+}

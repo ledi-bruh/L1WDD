@@ -1,3 +1,8 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .navLink {
     cursor: pointer;
     color: var(--nav-link-text);

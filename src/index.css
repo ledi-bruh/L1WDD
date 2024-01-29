@@ -1,0 +1,9 @@
+:root {
+  --nav-link-text: #1f1534;
+  --company-logo-text: #233348;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
