@@ -12,6 +12,10 @@ nav {
     margin: 0 0 0 2.5rem;
     border: none;
     background-color: transparent;
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 .activeLink {
