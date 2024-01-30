@@ -1,5 +1,6 @@
 export const strings = {
     company_logo: "/src/assets/images/company_logo.png",
+    company_logo_inv: "/src/assets/images/company_logo_inv.png",
     main_banner_title: "Virtual healthcare for you",
     main_banner_description: "Our service provides progressive, and affordable healthcare, accessible on mobile and online for everyone",
     main_banner_image: "/src/assets/images/banners/illustration1.png",
