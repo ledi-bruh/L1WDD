@@ -13,8 +13,12 @@ function Header() {
 
     return (
         <header className={classes.header}>
-            <div className={classes.logo}>
-                <img src={strings.company_logo} alt="HealthCareLogo" />
+            <div className={classes.company}>
+                <img
+                    src={strings.company_logo}
+                    alt="HealthCareLogo"
+                    className={classes.companyLogo}
+                />
                 <span className={classes.companyName}>HealthCare</span>
             </div>
             <NavMenu links={navLinks}></NavMenu>

@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 12rem 0 0;
 }
 
 .servicesInfo {
@@ -11,13 +12,13 @@
 
     & > h2 {
         color: var(--primary-black);
-        font-size: 36px;
+        font-size: 2.25rem;
         font-weight: 700;
-        line-height: 56px;
+        line-height: 3.5rem;
     }
 
     & > .delimiter {
-        margin: 26px 0 33px;
+        margin: 1.625rem 0 2.0625rem;
     }
 
     & > p {
@@ -25,9 +26,9 @@
 
         color: var(--primary-gray);
         text-align: center;
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: 300;
-        line-height: 30px;
+        line-height: 1.875rem;
     }
 }
 
@@ -35,9 +36,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 37px;
+    gap: 2.3125rem;
 }
 
 .button {
-    margin: 72px 0 0;
+    margin: 4.5rem 0 0;
 }

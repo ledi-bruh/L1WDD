@@ -6,7 +6,7 @@ import Button from "../Button";
 
 function Services() {
     return (
-        <div className={classes.services}>
+        <section className={classes.services}>
             <div className={classes.servicesInfo}>
                 <h2>{strings.services_block_title}</h2>
                 <Delimiter className={classes.delimiter} />
@@ -45,7 +45,7 @@ function Services() {
                 />
             </div>
             <Button text={strings.services_block_button_text} fill={false} className={classes.button} />
-        </div>
+        </section>
     );
 }
 

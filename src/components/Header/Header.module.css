@@ -6,20 +6,20 @@
     width: calc(100% - 2 * 12%);
 }
 
-.logo {
+.company {
     display: flex;
     align-items: center;
 }
 
-.logo > img {
+.companyLogo {
     object-fit: cover;
-    height: 41px;
-    width: 41px;
+    height: 2.5625rem;
+    width: 2.5625rem;
 }
 
-.logo > span {
+.companyName {
     margin: 0 0 0 0.75rem;
     color: var(--company-logo-text);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
 }

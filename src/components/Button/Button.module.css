@@ -1,10 +1,10 @@
 .button {
-    width: 200px;
-    height: 56px;
-    border-radius: 55px;
-    font-size: 18px;
+    width: 12.5rem;
+    height: 3.5rem;
+    border-radius: 3.4375rem;
+    font-size: 1.125rem;
     font-weight: 700;
-    line-height: 60px;
+    cursor: pointer;
 
     &:hover {
         scale: 1.01;
