@@ -4,19 +4,22 @@
     align-items: flex-start;
     justify-content: center;
     cursor: pointer;
-
+    padding: 0 39px;
     width: 311px;
     height: 354px;
     border-radius: 20px;
     background: var(--primary-white);
     box-shadow: 10px 40px 50px 0px var(--service-card-shadow);
-
-    padding: 0 39px;
 }
 
 .serviceCard:hover {
     scale: 1.01;
     transition: 0.15s all ease;
+}
+
+.serviceCard:active {
+    scale: 1.02;
+    transition: 0.1s all ease;
 }
 
 .serviceImageBlock {

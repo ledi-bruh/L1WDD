@@ -1,6 +1,12 @@
 :root {
+  --primary-white: #fff;
+  --primary-black: #000;
+  --primary-gray: #7D7987;
+  --primary-blue: #458FF6;
+
   --nav-link-text: #1f1534;
   --company-logo-text: #233348;
+  --service-card-shadow: rgba(229, 233, 246, 0.4);
 }
 
 * {

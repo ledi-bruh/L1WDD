@@ -1,0 +1,43 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicesInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > h2 {
+        color: var(--primary-black);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 56px;
+    }
+
+    & > .delimiter {
+        margin: 26px 0 33px;
+    }
+
+    & > p {
+        margin: 0 calc(325 / 1600 * 100%);
+
+        color: var(--primary-gray);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+}
+
+.serviceCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 37px;
+}
+
+.button {
+    margin: 72px 0 0;
+}
