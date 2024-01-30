@@ -1,0 +1,42 @@
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 calc(163 / 1600 * 100%) 0 calc(190 / 1600 * 100%);
+}
+
+.reversed {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bannerInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(427 / 1247 * 100%);
+}
+
+.bannerTitle {
+    color: var(--primary-black);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+}
+
+.bannerDescription {
+    color: var(--primary-gray);
+    font-size: 1.3125rem;
+    font-weight: 300;
+    line-height: 2rem;
+    margin: 2rem 0 0;
+}
+
+.bannerImage {
+    max-width: calc(693 / 1247 * 100%);
+}
+
+.delimiter {
+    margin: 2rem 0 0;
+}

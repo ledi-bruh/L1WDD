@@ -1,5 +1,9 @@
 export const strings = {
     company_logo: "/src/assets/images/company_logo.png",
+    main_banner_title: "Virtual healthcare for you",
+    main_banner_description: "Our service provides progressive, and affordable healthcare, accessible on mobile and online for everyone",
+    main_banner_image: "/src/assets/images/banners/illustration1.png",
+    main_banner_button_text: "Consult today",
     services_block_title: "Our services",
     services_block_description: "We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health",
     services_block_button_text: "Learn more",
