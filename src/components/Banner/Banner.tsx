@@ -21,7 +21,7 @@ const Banner: FC<IBannerProps> = ({
     reversed = false,
 }) => {
     return (
-        <section className={clsx(classes.banner, reversed && classes.reversed)}>
+        <div className={clsx(classes.banner, reversed && classes.reversed)}>
             <div className={classes.bannerInfo}>
                 <h2 className={classes.bannerTitle}>{title}</h2>
                 {delimiter && <Delimiter className={classes.delimiter} />}
@@ -33,7 +33,7 @@ const Banner: FC<IBannerProps> = ({
                 alt="BannerImage"
                 className={classes.bannerImage}
             ></img>
-        </section>
+        </div>
     );
 };
 

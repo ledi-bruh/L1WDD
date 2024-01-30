@@ -25,4 +25,12 @@ export const strings = {
     service6_image: "/src/assets/images/services/s6.svg",
     service6_title: "Tracking",
     service6_description: "Track and save your medical history and health data ",
+    banner1_title: "Leading healthcare providers",
+    banner1_description: "We provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver",
+    banner1_image: "/src/assets/images/banners/illustration2.png",
+    banner1_button_text: "Learn more",
+    banner2_title: "Download our mobile apps",
+    banner2_description: "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely",
+    banner2_image: "/src/assets/images/banners/illustration3.png",
+    banner2_button_text: "Download",
 };
