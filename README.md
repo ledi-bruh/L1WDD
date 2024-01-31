@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# Web-разработка. Лабораторная работа №1. Лендинг для клиники
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Задание
 
-Currently, two official plugins are available:
+Необходимо реализовать лендинг для клиники при помощи библиотеки **ReactJS**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Стек технологий
 
-## Expanding the ESLint configuration
+|               | Версия    |
+|---------------|-----------|
+| *Node.js*     | 18.14.2   |
+| *npm*         | 9.5.0     |
+| *vite*        | 5.0.8     |
+| *ReactJS*     | 18.2.0    |
+| *TypeScript*  | 5.2.2     |
+| *clsx*        | 2.1.0     |
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Описание лендинга
 
-- Configure the top-level `parserOptions` property like this:
+Лендинг представляет собой веб-страницу, которая содержит заголовок, баннеры с информацией о приложении больницы и функционал сервиса, информационные карточки о доступных сервисах, слайдер с комментариями от пользователей, актуальные статьи и справочную информацию. Целью сайта является предоставление удобного инструмента для пациентов, позволяющего записываться на приемы, просматривать статьи и медицинскую информацию, а также взаимодействовать с медицинским персоналом.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Результат
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+[📺 Ссылка на демо решения](https://drive.google.com/file/d/1ANX5EH-iwtCpuLviK-RqAfFPjglXYMTw/view?usp=sharing)

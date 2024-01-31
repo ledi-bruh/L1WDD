@@ -1,0 +1,104 @@
+.footer {
+    position: relative;
+    margin: 4.5rem 0 0 0;
+    padding: 7.37rem 0 6.81rem 11.88%;
+    display: flex;
+    background: linear-gradient(183deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+
+    * {
+        color: var(--primary-white);
+    }
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column:nth-child(1) {
+    width: 24.4375rem;
+}
+
+.column:nth-child(n + 2) {
+    margin: 0 0 0 9.06%;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+}
+
+.companyLogo {
+    object-fit: cover;
+    height: 2.5625rem;
+    width: 2.5625rem;
+}
+
+.companyName {
+    margin: 0 0 0 0.75rem;
+    color: var(--primary-white);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.info {
+    margin: 1.06rem 0 0;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.75rem;
+}
+
+.copyright {
+    margin: 1.94rem 0 0;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.75rem;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+}
+
+.link {
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 2.375rem;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        background-color: var(--primary-white);
+        left: 0;
+        bottom: -1px;
+        width: 0;
+        height: 1px;
+        content: "";
+        transition: width 0.3s ease-out;
+    }
+
+    &:hover::after {
+        width: 100%;
+    }
+}
+
+.dots7 {
+    height: 7.1875rem;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+}
+
+.dots8 {
+    height: 7.1875rem;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 0;
+    margin-top: -4.5rem;
+    margin-right: 5.71%;
+}

@@ -1,0 +1,55 @@
+.articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13.875rem;
+}
+
+.articlesInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > h2 {
+        color: var(--primary-black);
+        font-size: 2.25rem;
+        font-weight: 700;
+        line-height: 3.5rem;
+    }
+
+    & > .delimiter {
+        margin-top: 1.625rem;
+    }
+}
+
+.articleCards {
+    position: relative;
+    margin: 4.9375rem 13% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.125rem;
+}
+
+.button {
+    margin-top: 2.5rem;
+    margin-bottom: 8.125rem;
+}
+
+.dots6 {
+    height: 7.1875rem;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    margin-top: -3rem;
+    margin-left: -3rem;
+}
+
+.area2 {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    margin-top: -3rem;
+    margin-right: -13rem;
+}

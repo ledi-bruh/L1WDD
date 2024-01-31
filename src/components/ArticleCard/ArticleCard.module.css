@@ -1,0 +1,71 @@
+.articleCard {
+    display: flex;
+    flex-direction: column;
+    width: 21.875rem;
+    height: 32rem;
+    border-radius: 1.25rem;
+    background: var(--primary-white);
+    box-shadow: 10px 40px 50px 0px var(--card-shadow);
+}
+
+.articleImage {
+    width: 21.875rem;
+    height: 15rem;
+    border-radius: 1.25rem 1.25rem 0rem 0rem;
+    background: var(--primary-white);
+}
+
+.articleInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1.5rem 3.1875rem 2.1875rem 2.0625rem;
+
+    .title {
+        color: var(--primary-black);
+        font-size: 1.3125rem;
+        font-weight: 700;
+        line-height: 2rem;
+    }
+
+    .description {
+        margin-top: 0.75rem;
+        color: var(--primary-gray);
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1.75rem;
+    }
+
+    .button {
+        background-color: transparent;
+        border: none;
+        margin-top: 1.5625rem;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        cursor: pointer;
+
+        & > p {
+            color: var(--article-button);
+            font-size: 1.0625rem;
+            font-weight: 600;
+            line-height: 1.75rem;
+        }
+
+        & > img {
+            width: 0.88394rem;
+            height: 0.5625rem;
+            margin-left: 1rem;
+        }
+
+        &:hover {
+            transform: scale(1.02);
+            transition: 0.2s all;
+        }
+
+        &:active {
+            transform: scale(1.01);
+            transition: 0.1s all ease-out;
+        }
+    }
+}

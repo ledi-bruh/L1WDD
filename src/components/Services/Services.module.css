@@ -1,0 +1,61 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12rem 8rem 0;
+}
+
+.servicesInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > h2 {
+        color: var(--primary-black);
+        font-size: 2.25rem;
+        font-weight: 700;
+        line-height: 3.5rem;
+    }
+
+    & > .delimiter {
+        margin: 1.625rem 0 2.0625rem;
+    }
+
+    & > p {
+        margin: 0 20.3125%;
+        color: var(--primary-gray);
+        text-align: center;
+        font-size: 1.125rem;
+        font-weight: 300;
+        line-height: 1.875rem;
+    }
+}
+
+.serviceCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 2.3125rem;
+}
+
+.button {
+    margin: 4.5rem 0 0;
+}
+
+.area1 {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    margin-top: -3rem;
+}
+
+.dots2 {
+    width: 8.22381rem;
+    height: 7.1875rem;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    margin-top: 18rem;
+    margin-right: 5.6rem;
+}

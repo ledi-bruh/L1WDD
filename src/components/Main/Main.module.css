@@ -1,0 +1,50 @@
+#mainBanner {
+    margin: 0 10% 0 12%;
+}
+
+#centralBanner1 {
+    margin: 13.81rem 12% 0 8.44%;
+}
+
+#centralBanner1 button {
+    margin-top: 4.38rem;
+}
+
+#centralBanner2 {
+    margin: 14.31rem 10.25% 0 17.5%;
+}
+
+#centralBanner1,
+#centralBanner2 {
+    h2 {
+        font-size: 2.25rem;
+    }
+    p {
+        font-size: 1.125rem;
+        line-height: 1.875rem;
+    }
+}
+
+.mainBannerButton {
+    margin: 3rem 0 0;
+}
+
+.centralBannerButton {
+    margin: 2.5rem 0 0;
+}
+
+.dots1 {
+    height: 7.1875rem;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    margin-top: -1.0625rem;
+}
+
+.dots3 {
+    height: 7.1875rem;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    margin-top: -1rem;
+}
