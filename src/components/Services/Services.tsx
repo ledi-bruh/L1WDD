@@ -13,6 +13,16 @@ function Services() {
                 <p>{strings.services_block_description}</p>
             </div>
             <div className={classes.serviceCards}>
+                <img
+                    className={classes.area1}
+                    alt="decor"
+                    src={strings.area1}
+                />
+                <img
+                    className={classes.dots2}
+                    alt="decor"
+                    src={strings.dots2}
+                />
                 <ServiceCard
                     image={strings.service1_image}
                     title={strings.service1_title}
@@ -44,7 +54,11 @@ function Services() {
                     description={strings.service6_description}
                 />
             </div>
-            <Button text={strings.services_block_button_text} fill={false} className={classes.button} />
+            <Button
+                text={strings.services_block_button_text}
+                fill={false}
+                className={classes.button}
+            />
         </section>
     );
 }

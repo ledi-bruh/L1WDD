@@ -23,6 +23,16 @@ const Articles: FC<IArticlesProps> = ({ articles }) => {
                 <Delimiter className={classes.delimiter} />
             </div>
             <div className={classes.articleCards}>
+                <img
+                    className={classes.dots6}
+                    alt="decor"
+                    src={strings.dots6}
+                />
+                <img
+                    className={classes.area2}
+                    alt="decor"
+                    src={strings.area2}
+                />
                 {articles
                     .slice(0, isOpen ? articles.length : 3)
                     .map((article, i) => (

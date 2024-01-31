@@ -40,6 +40,8 @@ function Footer() {
                 <a href="##" className={classes.link}>Instructions</a>
                 <a href="##" className={classes.link}>How it works</a>
             </div>
+            <img className={classes.dots7} alt="decor" src={strings.dots7} />
+            <img className={classes.dots8} alt="decor" src={strings.dots8} />
         </footer>
     );
 }

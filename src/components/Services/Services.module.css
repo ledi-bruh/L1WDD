@@ -35,9 +35,27 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 5rem;
     gap: 2.3125rem;
 }
 
 .button {
     margin: 4.5rem 0 0;
+}
+
+.area1 {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    margin-top: -3rem;
+}
+
+.dots2 {
+    width: 8.22381rem;
+    height: 7.1875rem;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    margin-top: 18rem;
+    margin-right: 5.6rem;
 }

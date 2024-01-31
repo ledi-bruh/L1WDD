@@ -23,6 +23,16 @@ const Slider: FC<ISliderProps> = ({ quotes }) => {
     return (
         <section className={classes.slider}>
             <div className={classes.sliderArea}>
+                <img
+                    className={classes.dots4}
+                    alt="decor"
+                    src={strings.dots4}
+                />
+                <img
+                    className={classes.dots5}
+                    alt="decor"
+                    src={strings.dots5}
+                />
                 <p className={classes.sliderTitle}>{strings.slider_title}</p>
                 <Delimiter className={classes.delimiter} />
                 {maxQuoteIndex >= 0 && (

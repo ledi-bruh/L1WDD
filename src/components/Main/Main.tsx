@@ -12,6 +12,11 @@ function Main() {
     return (
         <main className={classes.main}>
             <section id={classes.mainBanner}>
+                <img
+                    className={classes.dots1}
+                    alt="decor"
+                    src={strings.dots1}
+                />
                 <Banner
                     title={strings.main_banner_title}
                     delimiter={false}
@@ -39,6 +44,11 @@ function Main() {
                         />
                     }
                     reversed={true}
+                />
+                <img
+                    className={classes.dots3}
+                    alt="decor"
+                    src={strings.dots3}
                 />
             </section>
             <section id={classes.centralBanner2}>

@@ -3,6 +3,7 @@
 }
 
 .sliderArea {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,4 +133,23 @@
             transition: none;
         }
     }
+}
+
+.dots4 {
+    height: 7.1875rem;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 1rem;
+    margin-left: -5%;
+}
+
+.dots5 {
+    height: 7.1875rem;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    margin-top: -1rem;
+    margin-right: -3rem;
 }

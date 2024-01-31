@@ -32,3 +32,19 @@
 .centralBannerButton {
     margin: 2.5rem 0 0;
 }
+
+.dots1 {
+    height: 7.1875rem;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    margin-top: -1.0625rem;
+}
+
+.dots3 {
+    height: 7.1875rem;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    margin-top: -1rem;
+}
