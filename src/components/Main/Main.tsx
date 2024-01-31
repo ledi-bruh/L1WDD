@@ -3,6 +3,8 @@ import { strings } from "../../resources/strings";
 import Banner from "../Banner";
 import Button from "../Button";
 import Services from "../Services";
+import Slider from "../Slider";
+import quotes from "../../mock/quotes";
 
 function Main() {
     return (
@@ -52,6 +54,7 @@ function Main() {
                     reversed={false}
                 />
             </section>
+            <Slider quotes={quotes} />
         </main>
     );
 }

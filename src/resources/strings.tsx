@@ -34,4 +34,8 @@ export const strings = {
     banner2_description: "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely",
     banner2_image: "/src/assets/images/banners/illustration3.png",
     banner2_button_text: "Download",
+    slider_title: "What our customer are saying",
+    left_arrow: "/src/assets/images/slider/left_arrow.svg",
+    right_arrow: "/src/assets/images/slider/right_arrow.svg",
+    point: "/src/assets/images/slider/point.svg",
 };
