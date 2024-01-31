@@ -8,7 +8,8 @@
 
   --nav-link-text: #1f1534;
   --company-logo-text: #233348;
-  --service-card-shadow: rgba(229, 233, 246, 0.4);
+  --card-shadow: rgba(229, 233, 246, 0.4);
+  --article-button: #4089ed;
 }
 
 * {

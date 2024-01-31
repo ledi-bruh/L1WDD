@@ -38,4 +38,5 @@ export const strings = {
     left_arrow: "/src/assets/images/slider/left_arrow.svg",
     right_arrow: "/src/assets/images/slider/right_arrow.svg",
     point: "/src/assets/images/slider/point.svg",
+    article_card_button_text: "Read more",
 };
