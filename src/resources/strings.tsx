@@ -38,5 +38,8 @@ export const strings = {
     left_arrow: "/src/assets/images/slider/left_arrow.svg",
     right_arrow: "/src/assets/images/slider/right_arrow.svg",
     point: "/src/assets/images/slider/point.svg",
+    articles_block_title: "Check out our latest article",
+    articles_block_button_open_text: "View all",
+    articles_block_button_close_text: "Hide",
     article_card_button_text: "Read more",
 };

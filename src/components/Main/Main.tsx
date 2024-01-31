@@ -5,6 +5,8 @@ import Button from "../Button";
 import Services from "../Services";
 import Slider from "../Slider";
 import quotes from "../../mock/quotes";
+import Articles from "../Articles";
+import articles from "../../mock/articles";
 
 function Main() {
     return (
@@ -55,6 +57,7 @@ function Main() {
                 />
             </section>
             <Slider quotes={quotes} />
+            <Articles articles={articles} />
         </main>
     );
 }
