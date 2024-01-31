@@ -6,9 +6,15 @@ interface IButtonProps {
     text?: string;
     fill?: boolean;
     className?: string;
+    onClick?: () => void;
 }
 
-const Button: FC<IButtonProps> = ({ text = "", fill = true, className }) => {
+const Button: FC<IButtonProps> = ({
+    text = "",
+    fill = true,
+    className,
+    onClick = () => {},
+}) => {
     return (
         <button
             className={clsx(
@@ -16,6 +22,7 @@ const Button: FC<IButtonProps> = ({ text = "", fill = true, className }) => {
                 classes.button,
                 fill ? classes.filled : classes.unfilled
             )}
+            onClick={onClick}
         >
             {text}
         </button>
