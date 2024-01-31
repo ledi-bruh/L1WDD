@@ -17,3 +17,7 @@
   margin: 0;
   font-family: 'Mulish';
 }
+
+body {
+  background-color: var(--primary-white);
+}
