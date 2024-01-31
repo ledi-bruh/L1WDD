@@ -22,8 +22,7 @@
     }
 
     & > p {
-        margin: 0 calc(325 / 1600 * 100%);
-
+        margin: 0 20.3125%;
         color: var(--primary-gray);
         text-align: center;
         font-size: 1.125rem;
