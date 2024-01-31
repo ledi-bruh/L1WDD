@@ -65,6 +65,7 @@ const Slider: FC<ISliderProps> = ({ quotes }) => {
                                 classes.point,
                                 i === currentQuote && classes.currentPoint
                             )}
+                            key={i}
                         />
                     ))}
                 </div>

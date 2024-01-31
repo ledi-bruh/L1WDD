@@ -25,11 +25,12 @@ const Articles: FC<IArticlesProps> = ({ articles }) => {
             <div className={classes.articleCards}>
                 {articles
                     .slice(0, isOpen ? articles.length : 3)
-                    .map((article) => (
+                    .map((article, i) => (
                         <ArticleCard
                             image={article.image}
                             title={article.title}
                             description={article.description}
+                            key={i}
                         />
                     ))}
             </div>
